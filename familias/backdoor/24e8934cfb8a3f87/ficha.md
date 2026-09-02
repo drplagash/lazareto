@@ -21,6 +21,10 @@ yara_matches:  anti_dbg, Borland_Delphi_30_, Borland_Delphi_30_additional, Borla
 - Nombre conocido: 24e8934cfb8a3f8773054455916fb8ef595230bb644df38bcd6bfe98ec4f4bcc.pe
 - Tipo (VT): Win32 DLL
 
+## Wallet
+
+- No se pudo extraer una wallet en texto plano de esta muestra (probablemente se configura en runtime desde el C2, no esta hardcodeada).
+
 ## Archivo
 
 `muestra.zip` - password: `infected`

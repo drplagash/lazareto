@@ -21,6 +21,10 @@ yara_matches:  Big_Numbers1
 - Nombre conocido: d7188b8c575367e10ea8b36ec7cca067ef6ce6d26ffa8c74b3faa0b14ebb8ff0.raw
 - Tipo (VT): ELF
 
+## Wallet
+
+- No se pudo extraer una wallet en texto plano de esta muestra (probablemente se configura en runtime desde el C2, no esta hardcodeada).
+
 ## Archivo
 
 `muestra.zip` - password: `infected`

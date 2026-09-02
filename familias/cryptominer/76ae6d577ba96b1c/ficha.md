@@ -21,6 +21,10 @@ yara_matches:  Big_Numbers1, CRC32_poly_Constant, RijnDael_AES_CHAR
 - Nombre conocido: 76ae6d577ba96b1c3a1de8b21c32a9faf6040f7e78d98269e0469d896c29dc64.raw
 - Tipo (VT): ELF
 
+## Wallet
+
+- No se pudo extraer una wallet en texto plano de esta muestra (probablemente se configura en runtime desde el C2, no esta hardcodeada).
+
 ## Archivo
 
 `muestra.zip` - password: `infected`

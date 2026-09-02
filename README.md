@@ -51,20 +51,31 @@ El autor opera este proyecto de buena fe, en el marco de la investigación defen
 
 ```
 lazareto/
+├── WALLETS.md         (listado consolidado de wallets encontradas, con estado OFAC/denuncia)
 └── familias/
     └── <clasificacion>/
         └── <sha256-corto>/
-            ├── muestra.zip       (password: infected)
-            ├── ficha.md          (metadata + YARA + origen)
-            └── payload_origen.md (link a yersinia, si se pudo asociar)
+            ├── muestra.zip  (password: infected)
+            └── ficha.md     (metadata + YARA + veredicto VirusTotal + wallet + payload de origen)
 ```
 
-Actualizado cada 12 horas junto con `yersinia` — solo se agregan muestras nuevas, nada se sobrescribe.
+Accesos rápidos por familia:
+
+- [`cryptominer/`](familias/cryptominer/) — mineros de criptomonedas (XMRig, ADBMiner, CoinHive, etc.)
+- [`backdoor/`](familias/backdoor/) — troyanos/backdoors (incluye webshells)
+- [`downloader/`](familias/downloader/) — droppers/descargadores
+- [`c2_client/`](familias/c2_client/) — clientes de botnet/C2
+- [`no_clasificado/`](familias/no_clasificado/) — pendiente de revisión manual
+
+**[Ver WALLETS.md](WALLETS.md)** — todas las wallets de criptominería extraídas hasta ahora, con su estado real contra la lista de direcciones sancionadas de OFAC (se actualiza cada 24h) y, cuando esté disponible, Chainabuse.
+
+Actualizado junto con `yersinia` — solo se agregan/actualizan muestras, nada se pierde.
 
 ## Referencias cruzadas
 
 - Payload/comando que originó la descarga → [yersinia](https://github.com/drplagash/yersinia) (público), por SHA256 del payload.
 - Infraestructura del atacante en el momento de la captura → [rattus-rattus](https://github.com/drplagash/rattus-rattus) (privado), por IP.
+- Wallets de criptominería → [WALLETS.md](WALLETS.md), verificadas contra OFAC/Chainabuse.
 
 ## Licencia
 
