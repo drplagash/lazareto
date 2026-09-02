@@ -12,7 +12,7 @@ classification:cryptominer
 yara_matches:  none
 ```
 
-**Payload de origen:** [`944333da8dd2d2f9`](https://github.com/drplagash/yersinia/tree/main/familias) en yersinia (sesion real de Cowrie/ADBHoney - mismo sha256 en ambos repos)
+**Payload de origen:** sin vinculo conocido (captura via explotacion de protocolo o sin sesion de shell asociada)
 
 ## VirusTotal
 
