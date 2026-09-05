@@ -8,7 +8,7 @@ architecture:  x86
 size_bytes:    72707
 first_seen:    2026-09-02 02:32:54.267804 UTC
 times_seen:    1
-classification:backdoor
+classification:downloader
 yara_matches:  anti_dbg, Borland_Delphi_30_, Borland_Delphi_30_additional, Borland_Delphi_DLL, Borland_Delphi_v30, Borland_Delphi_v40_v50, HasDebugData, HasOverlay, HasRichSignature, IsDLL, IsPE32, IsWindowsGUI, maldoc_find_kernel32_base_method_1, Microsoft_Visual_Cpp_v50v60_MFC, network_dropper, SEH_Init, SEH_Save, win_files_operation
 ```
 
