@@ -16,7 +16,10 @@ yara_matches:  anti_dbg, Armadillo_v1xx_v2xx, Armadillo_v1xx_v2xx_additional, Ar
 
 ## VirusTotal
 
-- No se pudo consultar todavia. **Sin verificacion, pendiente de analisis.**
+- **Veredicto: MALICIOSO CONFIRMADO** (46/73 motores)
+- Etiqueta sugerida: trojan.wanna/wannacry
+- Nombre conocido: 1567144981542_vosfh_dionaeablr1_247872a20ddb6f75bb2f80526dd22a63
+- Tipo (VT): Win32 DLL
 
 ## Wallet
 
